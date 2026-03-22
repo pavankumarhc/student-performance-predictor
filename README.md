@@ -1,22 +1,77 @@
-# Student Performance Predictor
+🎓 Student Performance Predictor
 
-This project predicts student marks using Machine Learning.
+📌 Overview
 
-Technologies Used:
-Python
-Flask
-Scikit-learn
-HTML
+This project is a Machine Learning web application that predicts student performance based on academic inputs like attendance, previous marks, assignment scores, and internal marks.
 
-Input Parameters:
-Attendance
-Previous Marks
-Assignment Marks
-Internal Marks
+---
 
-Output:
-The system predicts the final marks of a student.
+🚀 Live Demo
 
-Developed by:
+🔗 https://student-performance-predictor-rj8i.onrender.com
+
+---
+
+🧠 Features
+
+- Predict student final marks using ML model
+- Simple and user-friendly web interface
+- Real-time prediction
+- Deployed on cloud (Render)
+
+---
+
+🛠️ Tech Stack
+
+- Python
+- Flask
+- Scikit-learn
+- HTML / CSS
+
+---
+
+📊 Input Parameters
+
+- Attendance (%)
+- Previous Marks
+- Assignment Marks
+- Internal Marks
+
+---
+
+📈 Output
+
+- Predicted Final Marks of the student
+
+---
+
+▶️ How to Run Locally
+
+git clone https://github.com/pavankumarhc/student-performance-predictor.git
+cd student-performance-predictor
+pip install -r requirements.txt
+python app.py
+
+---
+
+📁 Project Structure
+
+├── app.py
+├── model.pkl
+├── templates/
+│   └── index.html
+├── requirements.txt
+├── Procfile
+
+---
+
+👨‍💻 Author
+
 Pavan Kumar H C
-6th Semester Computer Science
+6th Semester - Computer Science
+
+---
+
+⭐ Acknowledgement
+
+This project is built for learning Machine Learning deployment and web integration.
